@@ -9,7 +9,7 @@
         [string]$ResourceGroupName,
 
         [Parameter(Mandatory=$False, HelpMessage="Enter an optional location in which to add the Resource Group.")]
-        [ValidateSet("East US", "West US", "West Europe", "Southeast Asia", "eastus", "westus", "westeurope", "southeastasia")]
+        [ValidateSet("East US", "West US", "West Europe", "Southeast Asia", "westus", "westeurope", "southeastasia")]
         [AllowedValues()]
         [String]$Location,
 
