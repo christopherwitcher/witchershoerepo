@@ -32,7 +32,7 @@
         [string]$projectCodetag,
 
         [Parameter(Mandatory=$False, HelpMessage="Set to True to skip creation of AD Groups and adding the Roles.")]
-        [bool]$skiproles = $false
+        [switch]skiproles = $false
 
     )
 
